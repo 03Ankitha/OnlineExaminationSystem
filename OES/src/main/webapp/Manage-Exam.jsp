@@ -63,7 +63,7 @@ String eexamid = request.getParameter("eexamid");
                         <br>
                     </div>
                     <div class="addstudent1">
-                         <form action="Controller.jsp" method="post" class="signup">
+                         <form action="Controller.jsp" method="post" class="examform">
                           	<input type="hidden" name="page" value="createexam">
                     		<input type="hidden" name="addedby" value="<%=id%>">
                             <table>

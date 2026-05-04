@@ -58,9 +58,6 @@ response.setHeader("Expires", "0"); //prevents caching at the proxy server
 	</div>
 	<script>
 	history.forward();
-	window.onbeforeunload = function() {
-		return "You work will be lost.";
-	};
 </script>
 </body>
 

@@ -287,3 +287,57 @@ form .btn input[type="button"] {
 	box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
 	border-radius: 0.1rem;
 }
+
+.addexam1, .addexam2 {
+    display: none;
+    padding: 1rem;
+    width: 45%;
+    background: #FFF;
+    z-index: 20;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    border-radius: 0.1rem;
+}
+
+#addstudent {
+    display: none;
+    padding: 1rem;
+    width: 70%;
+    background: #FFF;
+    z-index: 20;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    border-radius: 0.1rem;
+}
+
+.examform {
+    width: 100% !important;
+    margin-left: 0 !important;
+    display: block !important;
+}
+
+.addexam3 {
+    display: none;
+    padding: 1rem;
+    width: 40%;
+    background: #FFF;
+    z-index: 20;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    border-radius: 0.1rem;
+}
